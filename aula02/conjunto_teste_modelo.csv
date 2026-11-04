@@ -1,0 +1,4 @@
+id,entrada,saida_esperada,dificuldade,observacao
+1,"Não consigo fazer login no portal desde ontem",acesso_sistemas,facil,
+2,"Paguei o boleto mas a matrícula ainda aparece como pendente",financeiro,dificil,"ambíguo: financeiro ou matrícula"
+3,"Preciso do histórico para pedir aproveitamento de disciplinas",documentos,media,
