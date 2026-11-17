@@ -51,7 +51,7 @@ Esta disciplina fecha o Bloco 03. Ela apresenta os fundamentos dos grandes model
 | Data | Modalidade | Atividade | Material |
 |---|---|---|---|
 | 04/11 (qua), 19h às 22h | Síncrona | **Aula 1**: Fundamentos: tokenização, atenção, Transformer e famílias de modelos | [`aula01/`](aula01/) |
-| 05/11 a 23/11 | Assíncrona | **Aula 2**: Parte A, notebook guiado (até 18/11, 23h59); Parte B, ficha do caso de uso + conjunto de teste (até 23/11, 23h59) | [`aula02/`](aula02/) |
+| 05/11 a 18/11 | Assíncrona | **Aula 2**: Parte A, notebook guiado; Parte B, ficha do caso de uso + conjunto de teste (ambas até 18/11, 23h59) | [`aula02/`](aula02/) |
 | 18/11 (qua), 19h às 22h | Síncrona | **Aula 3**: uso prático de LLMs (prompting, saída estruturada, busca e RAG, LoRA/QLoRA e avaliação) | [`aula03/`](aula03/) |
 | 25/11 (qua) | Síncrona | **Oficina aplicada**: protótipo medido da integração ao MVP ([enunciado](oficina/enunciado_oficina.pdf)) | [`oficina/`](oficina/) |
 | 29/11 a 05/12 | Assíncrona | Finalização da integração, do documento de entrega e do vídeo explicativo | [`entrega_final/`](entrega_final/) |
@@ -62,7 +62,7 @@ Esta disciplina fecha o Bloco 03. Ela apresenta os fundamentos dos grandes model
 
 | Instrumento | Quando | Peso |
 |---|---|---|
-| Ficha do caso de uso + conjunto de teste (em grupo) | até 23/11, 23h59 | 20% |
+| Ficha do caso de uso + conjunto de teste (em grupo) | até 18/11, 23h59 | 20% |
 | Protótipo e demonstração na oficina (em grupo): [enunciado e critérios](oficina/enunciado_oficina.pdf) | 25/11 | 20% |
 | Entrega final (em grupo): documento + anexos + vídeo de até 5 min ([enunciado, modelo e rubrica](entrega_final/)) | até 05/12, 23h59 | 60% |
 

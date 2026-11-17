@@ -16,7 +16,7 @@ A oficina **não é uma aula**: é uma sessão de trabalho em grupo. Cada grupo 
 
 ## O que trazer pronto
 
-- [ ] **Ficha do caso de uso e conjunto de teste** entregues no Moodle até **23/11/2026, 23h59**.
+- [ ] **Ficha do caso de uso e conjunto de teste** entregues no Moodle até **18/11/2026, 23h59**.
 - [ ] **`conjunto_teste.csv`** (20 a 30 exemplos) com a coluna **`saida_modelo_proprio`** (a saída do modelo do grupo em cada exemplo) e, se possível, **`confianca_modelo_proprio`**.
 - [ ] **Acesso ao LLM testado** antes do dia (Seção 0 do notebook-base): modelo aberto no Colab ou API com a chave nos Secrets do Colab (`LLM_API_KEY`).
 - [ ] **3 a 8 exemplos para few-shot**, fora do conjunto de teste.
