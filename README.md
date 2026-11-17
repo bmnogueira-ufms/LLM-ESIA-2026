@@ -19,7 +19,7 @@
 ---
 
 ## Visão geral
-Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fundamentos dos grandes modelos de linguagem (LLMs) e um caminho complementar (muitas vezes mais rápido) para adicionar inteligência ao MVP de cada grupo: em vez de (ou além de) treinar um modelo próprio, avaliar se um LLM resolve melhor o problema.
+Esta disciplina fecha o Bloco 03. Ela apresenta os fundamentos dos grandes modelos de linguagem (LLMs) e um caminho complementar (muitas vezes mais rápido) para adicionar inteligência ao MVP de cada grupo: em vez de (ou além de) treinar um modelo próprio, avaliar se um LLM resolve melhor o problema.
 
 - **Docente:** Prof. Bruno Nogueira (FACOM/UFMS)
 - **Período:** 04/11/2026 a 05/12/2026
@@ -51,7 +51,7 @@ Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fun
 | Data | Modalidade | Atividade | Material |
 |---|---|---|---|
 | 04/11 (qua), 19h às 22h | Síncrona | **Aula 1**: Fundamentos: tokenização, atenção, Transformer e famílias de modelos | [`aula01/`](aula01/) |
-| 05/11 a 23/11 | Assíncrona | **Aula 2**: notebook guiado + ficha do caso de uso (entrega até 23/11, 23h59) | [`aula02/`](aula02/) |
+| 05/11 a 23/11 | Assíncrona | **Aula 2**: Parte A, notebook guiado (até 18/11, 23h59); Parte B, ficha do caso de uso + conjunto de teste (até 23/11, 23h59) | [`aula02/`](aula02/) |
 | 18/11 (qua), 19h às 22h | Síncrona | **Aula 3**: uso prático de LLMs (prompting, saída estruturada, busca e RAG, LoRA/QLoRA e avaliação) | [`aula03/`](aula03/) |
 | 25/11 (qua) | Síncrona | **Oficina aplicada**: protótipo medido da integração ao MVP ([enunciado](oficina/enunciado_oficina.pdf)) | [`oficina/`](oficina/) |
 | 29/11 a 05/12 | Assíncrona | Finalização da integração e do documento de entrega | [`entrega_final/`](entrega_final/) |

@@ -130,7 +130,6 @@ _O que os erros ensinam: as abordagens erram nos mesmos casos? O que mudaria no 
 - **Decisão:** _modelo próprio, LLM ou híbrido, em uma frase._
 - **O que mudaria a decisão:** _ex.: volume mensal acima de X, novos dados rotulados, mudança de preço, restrição de dados._
 - **Trabalho futuro:** _ex.: fine-tuning leve com N exemplos, mais dados de teste, RAG com documentos oficiais._
-- **No Demo Day:** _o que será mostrado._
 
 ---
 

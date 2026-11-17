@@ -11,7 +11,7 @@ Um documento **curto** em que o grupo responde, com evidências, à pergunta que
 
 > **Para a funcionalidade inteligente do MVP, usar o modelo próprio, um LLM ou uma solução híbrida?**
 
-O documento fecha o caminho da disciplina (ficha do caso de uso → protótipo e números na oficina → **decisão justificada**) e serve de base para o que o grupo vai mostrar no **Demo Day**.
+O documento fecha o caminho da disciplina (ficha do caso de uso → protótipo e números na oficina → **decisão justificada**).
 
 A disciplina **não exige** que o LLM vença. "O nosso modelo próprio é melhor, e estes números mostram isso" é uma conclusão válida. O que vale nota é a **qualidade da decisão**: comparação justa, números, análise crítica e um pipeline que outra pessoa conseguiria reproduzir.
 
@@ -45,7 +45,7 @@ Os anexos são os arquivos que o notebook-base da oficina já gera em `resultado
 | **5. Pipeline de integração** | como a solução escolhida funciona no MVP: prompt, esquema da saída, validação, repetição e fallback; RAG, se houver; chaves, tempo limite, logs | 1 página |
 | **6. Exemplos e análise de erros** | pelo menos 3 acertos e 3 erros representativos; erros classificados por tipo | 1 página |
 | **7. Limitações e riscos** | cada risco com evidência e mitigação: alucinação, saída inválida, prompt injection, viés, dados pessoais (LGPD), custo, latência, dependência do provedor | ½ a 1 página |
-| **8. Decisão final e próximos passos** | decisão, o que a faria mudar, trabalho futuro (ex.: fine-tuning) e o que vai para o Demo Day | ½ página |
+| **8. Decisão final e próximos passos** | decisão, o que a faria mudar e trabalho futuro (ex.: fine-tuning) | ½ página |
 | **Declaração de uso de IA generativa** | se e como o grupo usou ferramentas de IA na preparação do documento | 2 a 4 linhas |
 
 O modelo detalha, em cada seção, as perguntas que ela precisa responder.
