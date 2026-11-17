@@ -1,6 +1,6 @@
 # Grandes Modelos de Linguagem (2026)
 
-> Repositório da disciplina **Grandes Modelos de Linguagem** — Bloco 03 da **Residência Tecnológica em Engenharia de Software Inteligente** (FACOM/UFMS).
+> Repositório da disciplina **Grandes Modelos de Linguagem**, do Bloco 03 da **Residência Tecnológica em Engenharia de Software Inteligente** (FACOM/UFMS).
 
 [![Abrir no Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmnogueira-ufms/LLM-ESIA-2026)
 
@@ -19,14 +19,14 @@
 ---
 
 ## Visão geral
-Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fundamentos dos grandes modelos de linguagem (LLMs) e um caminho complementar — muitas vezes mais rápido — para adicionar inteligência ao MVP de cada grupo: em vez de (ou além de) treinar um modelo próprio, avaliar se um LLM resolve melhor o problema.
+Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fundamentos dos grandes modelos de linguagem (LLMs) e um caminho complementar (muitas vezes mais rápido) para adicionar inteligência ao MVP de cada grupo: em vez de (ou além de) treinar um modelo próprio, avaliar se um LLM resolve melhor o problema.
 
 - **Docente:** Prof. Bruno Nogueira (FACOM/UFMS)
 - **Período:** 04/11/2026 a 05/12/2026
-- **Carga horária:** 15 h — 9 h síncronas (2 aulas + oficina) e 6 h assíncronas
-- **Encontros síncronos:** remotos, às quartas, 19h–22h (horário de MS)
+- **Carga horária:** 15 h: 9 h síncronas (2 aulas + oficina) e 6 h assíncronas
+- **Encontros síncronos:** remotos, às quartas, das 19h às 22h (horário de MS)
 - **Linguagem:** Python · **Ambiente:** Google Colab
-- **Principais bibliotecas:** Hugging Face Transformers, tiktoken, BertViz, scikit-learn, OpenAI SDK (para APIs compatíveis)
+- **Principais bibliotecas:** Hugging Face Transformers, tiktoken, BertViz, scikit-learn, OpenAI SDK (para APIs compatíveis), Pydantic, sentence-transformers, FAISS, Unsloth (fine-tuning)
 
 ---
 
@@ -50,11 +50,11 @@ Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fun
 
 | Data | Modalidade | Atividade | Material |
 |---|---|---|---|
-| 04/11 (qua), 19h–22h | Síncrona | **Aula 1** — Fundamentos: tokenização, atenção, Transformer e famílias de modelos | [`aula01/`](aula01/) |
-| 05/11 a 18/11 | Assíncrona | **Aula 2** — Notebook guiado + ficha do caso de uso | [`aula02/`](aula02/) |
-| 18/11 (qua), 19h–22h | Síncrona | **Aula 3** — Uso prático de LLMs: prompting, RAG, fine-tuning leve e avaliação | em breve |
-| 25/11 (qua) | Síncrona | **Oficina aplicada** — prototipação da integração ao MVP | em breve |
-| 29/11 a 05/12 | Assíncrona | Finalização da integração e do documento de entrega | em breve |
+| 04/11 (qua), 19h às 22h | Síncrona | **Aula 1**: Fundamentos: tokenização, atenção, Transformer e famílias de modelos | [`aula01/`](aula01/) |
+| 05/11 a 23/11 | Assíncrona | **Aula 2**: notebook guiado + ficha do caso de uso (entrega até 23/11, 23h59) | [`aula02/`](aula02/) |
+| 18/11 (qua), 19h às 22h | Síncrona | **Aula 3**: uso prático de LLMs (prompting, saída estruturada, busca e RAG, LoRA/QLoRA e avaliação) | [`aula03/`](aula03/) |
+| 25/11 (qua) | Síncrona | **Oficina aplicada**: protótipo medido da integração ao MVP ([enunciado](oficina/enunciado_oficina.pdf)) | [`oficina/`](oficina/) |
+| 29/11 a 05/12 | Assíncrona | Finalização da integração e do documento de entrega | [`entrega_final/`](entrega_final/) |
 
 ---
 
@@ -62,24 +62,38 @@ Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fun
 
 | Instrumento | Quando | Peso |
 |---|---|---|
-| Ficha do caso de uso (em grupo) | até 18/11 | 20% |
-| Protótipo e demonstração na oficina (em grupo) | 25/11 | 20% |
-| Documento final (em grupo) | até 05/12 | 60% |
+| Ficha do caso de uso + conjunto de teste (em grupo) | até 23/11, 23h59 | 20% |
+| Protótipo e demonstração na oficina (em grupo): [enunciado e critérios](oficina/enunciado_oficina.pdf) | 25/11 | 20% |
+| Documento final (em grupo): [modelo e rubrica](entrega_final/) | até 05/12, 23h59 | 60% |
 
 ---
 
 ## Estrutura do repositório
 ```bash
 .
-├── aula01/                         # Aula 1 — Fundamentos
+├── aula01/                         # Aula 1: fundamentos
 │   └── aula01_demo.ipynb           # notebook das demonstrações ao vivo
-├── aula02/                         # Aula 2 — Atividade assíncrona
-│   ├── aula02_notebook_guiado.ipynb# Parte A — notebook guiado (individual)
-│   ├── ficha_caso_de_uso.md        # Parte B — modelo da ficha (em grupo)
+├── aula02/                         # Aula 2: atividade assíncrona
+│   ├── aula02_notebook_guiado.ipynb# Parte A: notebook guiado (individual)
+│   ├── ficha_caso_de_uso.md        # Parte B: modelo da ficha (em grupo)
 │   ├── ficha_caso_de_uso.docx      # o mesmo modelo, em Word
 │   └── conjunto_teste_modelo.csv   # formato sugerido do conjunto de teste
+├── aula03/                         # Aula 3: uso prático de LLMs
+│   ├── aula03_demo.ipynb           # demos: prompting, Pydantic, busca (BM25, vetorial, reranking), RAG, comparação
+│   └── aula03_unsloth_lora.ipynb   # fine-tuning leve com QLoRA e Unsloth (GPU T4)
+├── oficina/                        # Oficina aplicada (25/11)
+│   ├── README.md                   # resumo da oficina
+│   ├── enunciado_oficina.pdf       # enunciado completo: o que trazer, passo a passo, entrega e critérios
+│   └── oficina_notebook_base.ipynb # notebook-base do protótipo (pipeline completo + RAG)
+├── entrega_final/                  # Documento final (até 05/12)
+│   ├── README.md                   # definição, estrutura, rubrica e checklist
+│   ├── documento_final_modelo.md   # modelo do documento
+│   └── documento_final_modelo.docx # o mesmo modelo, em Word
 ├── dados/
-│   └── chamados_exemplo.csv        # 60 chamados fictícios (4 categorias) usados no notebook guiado
+│   ├── chamados_exemplo.csv        # 60 chamados fictícios (4 categorias) usados nos notebooks
+│   ├── chamados_treino_extra.csv   # 100 chamados fictícios extras para o fine-tuning da Aula 3
+│   ├── mensagens_secretaria.csv    # 12 mensagens fictícias com gabarito para a extração da Aula 3
+│   └── base_conhecimento_secretaria.md # base fictícia para a busca e o RAG da Aula 3
 ├── images/                         # figuras
 ├── requirements.txt                # dependências para uso local
 └── README.md
@@ -95,7 +109,7 @@ Esta disciplina fecha o Bloco 03 e antecede o **Demo Day**. Ela apresenta os fun
 3. **Ambiente de execução → Alterar o tipo de ambiente de execução → GPU T4.**
 4. Rode as células de preparação (Seção 0).
 
-**Chaves de API:** se for usar uma API (opção B do Exercício 4 da Aula 2), guarde a chave nos **Secrets do Colab** (ícone 🔑) com o nome `LLM_API_KEY`. Nunca coloque chaves no código nem no GitHub.
+**Chaves de API:** se for usar uma API (opção B nos notebooks das Aulas 2 e 3 e da oficina), guarde a chave nos **Secrets do Colab** (ícone 🔑) com o nome `LLM_API_KEY`. Nunca coloque chaves no código nem no GitHub.
 
 ### Ambiente local (venv)
 ```bash
@@ -134,5 +148,5 @@ jupyter lab
 ---
 
 ## Contato
-**Prof. Bruno Nogueira — FACOM/UFMS**
+**Prof. Bruno Nogueira, FACOM/UFMS**
 E-mail: bruno.nogueira@ufms.br

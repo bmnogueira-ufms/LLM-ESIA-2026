@@ -1,9 +1,9 @@
 # Ficha do caso de uso — LLM no MVP
 
 **Grandes Modelos de Linguagem · Residência em Engenharia de Software Inteligente (FACOM/UFMS)**
-Aula 2 · Parte B · **em grupo** · entrega até **18/11/2026, antes da Aula 3** · vale 20% da nota
+Aula 2 · Parte B · **em grupo** · entrega até **23/11/2026, 23h59** (no Moodle) · vale 20% da nota
 
-> Copie este modelo, preencha cada seção e entregue em PDF (ou no formato indicado pelo professor). Seja objetivo: a ficha inteira cabe em 2 a 3 páginas. Ela será usada na **clínica das fichas** da Aula 3, quando cada grupo recebe um retorno sobre a abordagem a prototipar na oficina.
+> Copie este modelo, preencha cada seção e entregue em PDF (ou no formato indicado pelo professor). Seja objetivo: a ficha inteira cabe em 2 a 3 páginas. Ela é o ponto de partida da **oficina** (25/11): o retorno sobre a ficha acontece durante a oficina, nas visitas do professor aos grupos.
 
 ---
 
