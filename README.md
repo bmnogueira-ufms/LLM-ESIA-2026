@@ -54,7 +54,7 @@ Esta disciplina fecha o Bloco 03. Ela apresenta os fundamentos dos grandes model
 | 05/11 a 23/11 | Assíncrona | **Aula 2**: Parte A, notebook guiado (até 18/11, 23h59); Parte B, ficha do caso de uso + conjunto de teste (até 23/11, 23h59) | [`aula02/`](aula02/) |
 | 18/11 (qua), 19h às 22h | Síncrona | **Aula 3**: uso prático de LLMs (prompting, saída estruturada, busca e RAG, LoRA/QLoRA e avaliação) | [`aula03/`](aula03/) |
 | 25/11 (qua) | Síncrona | **Oficina aplicada**: protótipo medido da integração ao MVP ([enunciado](oficina/enunciado_oficina.pdf)) | [`oficina/`](oficina/) |
-| 29/11 a 05/12 | Assíncrona | Finalização da integração e do documento de entrega | [`entrega_final/`](entrega_final/) |
+| 29/11 a 05/12 | Assíncrona | Finalização da integração, do documento de entrega e do vídeo explicativo | [`entrega_final/`](entrega_final/) |
 
 ---
 
@@ -64,7 +64,7 @@ Esta disciplina fecha o Bloco 03. Ela apresenta os fundamentos dos grandes model
 |---|---|---|
 | Ficha do caso de uso + conjunto de teste (em grupo) | até 23/11, 23h59 | 20% |
 | Protótipo e demonstração na oficina (em grupo): [enunciado e critérios](oficina/enunciado_oficina.pdf) | 25/11 | 20% |
-| Documento final (em grupo): [modelo e rubrica](entrega_final/) | até 05/12, 23h59 | 60% |
+| Entrega final (em grupo): documento + anexos + vídeo de até 5 min ([enunciado, modelo e rubrica](entrega_final/)) | até 05/12, 23h59 | 60% |
 
 ---
 
@@ -85,8 +85,9 @@ Esta disciplina fecha o Bloco 03. Ela apresenta os fundamentos dos grandes model
 │   ├── README.md                   # resumo da oficina
 │   ├── enunciado_oficina.pdf       # enunciado completo: o que trazer, passo a passo, entrega e critérios
 │   └── oficina_notebook_base.ipynb # notebook-base do protótipo (pipeline completo + RAG)
-├── entrega_final/                  # Documento final (até 05/12)
+├── entrega_final/                  # Entrega final: documento + vídeo (até 05/12)
 │   ├── README.md                   # definição, estrutura, rubrica e checklist
+│   ├── enunciado_entrega_final.pdf # enunciado completo: documento seção a seção, vídeo, critérios
 │   ├── documento_final_modelo.md   # modelo do documento
 │   └── documento_final_modelo.docx # o mesmo modelo, em Word
 ├── dados/

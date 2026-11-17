@@ -1,9 +1,9 @@
 # Documento final: LLM no MVP
 
 **Grandes Modelos de Linguagem · Residência em Engenharia de Software Inteligente (FACOM/UFMS)**\
-Entrega em grupo · até **05/12/2026, 23h59** · vale 60% da nota
+Entrega em grupo · documento + anexos + vídeo de até 5 minutos · até **05/12/2026, 23h59** · vale 60% da nota
 
-> Copie este modelo, substitua os textos em itálico e apague as instruções (os blocos que começam com ">"). O corpo do documento tem **até 6 páginas**, sem contar capa e anexos. Entregue em PDF.
+> Copie este modelo, substitua os textos em itálico e apague as instruções (os blocos que começam com ">"). O corpo do documento tem **até 6 páginas**, sem contar capa e anexos. Entregue em PDF, junto com o `.zip` dos anexos e o link do **vídeo explicativo de até 5 minutos** (roteiro no `enunciado_entrega_final.pdf`).
 
 ---
 
@@ -11,7 +11,8 @@ Entrega em grupo · até **05/12/2026, 23h59** · vale 60% da nota
 **Integrantes:** _nomes_\
 **MVP:** _nome e descrição em uma frase_\
 **Funcionalidade inteligente analisada:** _uma frase_\
-**Notebook (link com acesso de leitura):** _link_
+**Notebook (link com acesso de leitura):** _link_\
+**Vídeo explicativo (até 5 min, link aberto):** _link_
 
 ---
 
@@ -135,7 +136,7 @@ _O que os erros ensinam: as abordagens erram nos mesmos casos? O que mudaria no 
 
 ### Declaração de uso de IA generativa
 
-_Declare se e como o grupo usou ferramentas de IA generativa na preparação deste documento e do código._
+_Declare se e como o grupo usou ferramentas de IA generativa na preparação deste documento, do código e do vídeo._
 
 ---
 
